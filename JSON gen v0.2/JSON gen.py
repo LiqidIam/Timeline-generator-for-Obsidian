@@ -3,8 +3,18 @@ import json
 
 
 def generate_timeline(start_year=1810, end_year=2100, step=10, width_per_year=25):
+	nodes = generate_eras(start_year, end_year, step)
 	pass
-	return json.dumps(canvas, indent=2, ensure_ascii=False)
+	# return json.dumps(canvas, indent=2, ensure_ascii=False)
+
+def generate_eras():
+	pass
+
+def generate_centuries():
+	pass
+
+def generate_years():
+	pass
 
 
 
